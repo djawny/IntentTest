@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">IntentTest</string>
+    <string name="camera_intent">Camera Intent</string>
+    <string name="internet_intent">Internet Intent</string>
+    <string name="phone_intent">Phone Intent</string>
+</resources>
