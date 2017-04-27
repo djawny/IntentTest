@@ -4,30 +4,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context="com.sdaacademy.jawny.daniel.intenttest.MainActivity">
 
     <ImageView
         android:id="@+id/main_activity_image_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription=""
         tools:ignore="ContentDescription" />
 
     <Button
         android:id="@+id/internet_intent_button"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/internet_intent" />
 
     <Button
         android:id="@+id/camera_intent_button"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/camera_intent" />
 
     <Button
         android:id="@+id/phone_intent_button"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/phone_intent" />
 
