@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
         Intent internetIntent = new Intent(Intent.ACTION_VIEW);
         internetIntent.setData(Uri.parse("http://pudelek.pl"));
         startActivity(internetIntent);
-
     }
 
     @OnClick(R.id.camera_intent_button)
